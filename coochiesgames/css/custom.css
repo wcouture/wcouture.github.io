@@ -1,0 +1,81 @@
+:root{
+  --red: rgba(217, 156, 152, 0.5);
+  --blue: rgba(52, 122, 235);
+  --lightblue: rgba(52, 177, 235);
+}
+.headerMain{
+  margin: 15vh;
+  text-align: center;
+  text-decoration: underline;
+}
+.header{
+  nackground-color: var(--blue)
+}
+.gridLayout{
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 15vw 26vw 26vw 26vw 15vw;
+  grid-template-rows: 25vh 15vh 15vh;
+  grid-template-areas: "header header header header header"
+                       "space game1 game2 game3 space"
+                       "space game4 game5 game6 space";
+
+}
+#header{
+  grid-area: header;
+}
+#game1{
+    grid-area:game1;
+}
+#game2{
+    grid-area:game2;
+}
+#game3{
+    grid-area:game3;
+}
+#game4{
+    grid-area:game4;
+}
+#game5{
+    grid-area:game5;
+}
+#game6{
+    grid-area:game6;
+}
+.iframe{
+  text-align center;
+}
+.navGame{
+  border: .03em solid black;
+  border-radius: .1em;
+  padding: .1em 0;
+  margin: .2em 0 0;
+  text-align: justify;
+  background-color: var(--lightblue);
+}
+#aGame{
+  padding: .1em .05em;
+  font-size: 1.5em;
+}
+nav a:hover{
+  color: green;
+}
+nav p{
+  background: none;
+}
+.gameLayout{
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-areas: "header"
+                       "nav"
+                       "game";
+  grid-template-rows: 25vh 15vh 1000em;
+}
+#nav{
+  grid-area: nav;
+}
+#game{
+  grid-area: game;
+}
