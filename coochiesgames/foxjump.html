@@ -7,18 +7,22 @@
   <link href='https://fonts.googleapis.com/css?family=Agbalumo' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
   <link rel="stylesheet" href="css/custom.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="games/foxjump/Build/UnityLoader.js"></script>
+  <script>
+    UnityLoader.instantiate("unityContainer", "games/foxjump/Build/foxJumpWebGL.json");
+  </script>
+
 </head>
 <body>
 
     <header>
-      <a href="index.html">
+      <a href="index.html" class="titlelink">
         <h1>Coochies Games</h1>
       </a>
     </header>
-
-    <h2>Fox Jump</h2>
     <div class="gameframe">
-      <iframe src="games/foxjump/index.html" border= 4px></iframe>
+      <div id="unityContainer" style="width: 1067px; height: 600px; margin: auto"></div>
     </div>
 </body>
 </html>
