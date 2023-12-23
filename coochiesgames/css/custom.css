@@ -8,15 +8,16 @@ body {
 header {
   background-color: maroon;
   color: #fff;
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   font-family: 'Agbalumo';
   font-size: 24pt;
 }
 
+
+
 a{
   text-decoration: none;
-  color: #fff;
 }
 
 section {
@@ -38,6 +39,14 @@ img {
 
 canvas{
   margin: 20px;
+}
+
+.gamelink{
+  color: black;
+}
+
+.titlelink{
+  color: #fff;
 }
 
 .gameframe{
