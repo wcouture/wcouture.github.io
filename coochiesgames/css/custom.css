@@ -6,10 +6,12 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: maroon;
   color: #fff;
   padding: 20px;
   text-align: center;
+  font-family: 'Agbalumo';
+  font-size: 24pt;
 }
 
 section {
@@ -17,11 +19,28 @@ section {
   overflow-y: auto;
   padding: 20px;
   flex-wrap: wrap;
+  font-family: "Amaranth";
+}
+
+img {
+
+  max-width: 96%;
+  border: 5pt ridge maroon
 }
 
 a{
   color: black;
   text-decoration: none;
+}
+
+.gameframe{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .panel {
