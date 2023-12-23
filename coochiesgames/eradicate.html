@@ -1,33 +1,38 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Coochie's Games</title>
-        <meta name="author" content="Will Couture, and Owen Cooledge">
-        <meta name="description" content="Coochie's games is a website to showcase games created by Will Couture">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/custom.css" type="text/css">
-        <script data-ad-client="ca-pub-2305505921754222" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fox Jump</title>
+  <link href='https://fonts.googleapis.com/css?family=Agbalumo' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+  <link rel="stylesheet" href="css/custom.css">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="shortcut icon" href="games/eradicate/TemplateData/favicon.ico">
+  <link rel="stylesheet" href="games/eradicate/TemplateData/style.css">
+  <script src="games/eradicate/TemplateData/UnityProgress.js"></script>
+  <script src="games/eradicate/Build/UnityLoader.js"></script>
+  <script>
+    var unityInstance = UnityLoader.instantiate("unityContainer", "games/eradicate/Build/WebGL.json", {onProgress: UnityProgress});
+  </script>
+</head>
 <body>
-  <main class = "gamelayout">
-    <section class="header">
-    <h1 class="headerMain" >Eradicate</h1>
-    </section>
-    <nav class="navGame" id="nav">
-      <a id ="aGame" href="index.html">Home</a>
-      <a id ="aGame" href="foxjump.html">FoxJump</a>
-      <a id ="aGame" href="racedemo.html">RaceDemo</a>
-      <a id ="aGame" href="eradicate.html">Eradicate</a>
-      <a id ="aGame" href="spuds.html">Spuds</a>
-      <a id ="aGame" href="vrazyeights.html">VrazyEights</a>
-      <a id ="aGame" href="minesweeper.html">MineSweeper</a>
-      <a id ="aGame" href="random.html">RandomAssignment</a>
-      <a id ="aGame" href="3dpong.html">3D Pong</a>
-    </nav>
-    <section id="game">
-      <iframe class="iframe" src="games/eradicate/index.html" title = "Eradicate" width="1100" height="600"></iframe>
-    </section>
-  </main>
+
+    <header>
+      <a href="index.html" class="titlelink">
+        <h1>Coochies Games</h1>
+      </a>
+    </header>
+    <div class="gameframe">
+      <div class="webgl-content">
+        <div id="unityContainer" style="width: 960px; height: 600px"></div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+          <div class="title">Eradicate</div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
