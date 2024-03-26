@@ -1,181 +1,240 @@
- <!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Couture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css"> <!-- fontawesome -->
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
+    
+<!--
 
-<html>
-	<head>
-		<title>William - Home</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="icon" type="image/png" href="setting.png"/>
-	</head>
-	<body class="is-preload">
+Tooplate 2126 Antique Cafe
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<h1>William Couture</h1>
-					<p>Software Developer/Student</p>
-				</header>
-				<footer>
-					<a href="#banner" class="button style2 scrolly-middle">Learn More</a>
-				</footer>
-			</section>
+https://www.tooplate.com/view/2126-antique-cafe
 
-		<!-- Banner -->
-			<section id="banner">
-				<header>
-					<h2>About Me</h2>
-				</header>
-				<p style="margin: 200px; margin-top: 0; margin-bottom: 0">I am a computer science student at Florida State University with a strong passion for software development. I have expereince with Java, JavaFX, C++, SFML, SDL2.0, C#, JavaScript, NodeJS, and other various frameworks and libraries. I have created this website to display some of the projects I have created which demonstrate the development of my skills.
+-->
+</head>
+<body>    
+    <!-- Intro -->
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/pixel-wipe-2.jpg">
+        <nav id="tm-nav" class="fixed w-full">
+            <div class="tm-container mx-auto px-2 md:py-6 text-right">
+                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
+                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                    <li class="inline-block mb-4 mx-4"><a href="#about" class="tm-text-gold py-1 md:py-3 px-4">About</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#projects" class="tm-text-gold py-1 md:py-3 px-4">Projects</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#resume" class="tm-text-gold py-1 md:py-3 px-4">Resume</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#contact" class="tm-text-gold py-1 md:py-3 px-4">Contact</a></li>
+                </ul>
+            </div>            
+        </nav>
+        <div class="container mx-auto px-2 tm-intro-width">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">Antique Cafe</h1>
+                    <p class="tm-text-gold tm-text-2xl">your daily energy booster</p>
+                </div>    
+                <div class="bg-black bg-opacity-70 p-10 mb-5">
+                    <p class="text-white leading-8 text-sm font-light">
+                        This is a coffee shop template named Antique Cafe which is a parallax HTML5 template with a good responsiveness.
+                        Feel free to use this layout for your cafe.
+                    	If you have any question, please <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">send us a message</a>. </p>
+                </div>
+                <div class="text-center">
+                    <div class="inline-block">
+                        <a href="#projects" class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
+                            <i class="fas fa-coffee mr-3"></i>
+                            <span>View projects</span>                        
+                        </a>
+                    </div>                    
+                </div>                
+            </div>
+        </div>        
+    </div>
+    <!-- Coding Projects -->
+    <div id="projects" class="parallax-window" data-parallax="scroll" data-image-src="img/gaming-stock.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Projects</h2>
+            </div>   
+            <!-- First row -->
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/icebrawls.png" alt="Image" class="rounded-md">
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">S $9.50 . BG #544639</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $12.50</div>
+                        </div>                    
+                    </div>
+                </div>
+        	
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <img src="img/foxjump.png" alt="Image" class="rounded-md">                   
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $12.50</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $16.50</div>
+                        </div>
+                        <img src="img/menu-item-6.jpg" alt="Image" class="rounded-md">                    
+                    </div>
+                </div>
+            </div>
+            <!-- Second row -->
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/spuds.png" alt="Image" class="rounded-md">
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">S $9.50 . BG #544639</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $12.50</div>
+                        </div>                    
+                    </div>
+                </div>
+        	
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <img src="img/blackjack.png" alt="Image" class="rounded-md">                   
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $12.50</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $16.50</div>
+                        </div>
+                        <img src="img/menu-item-6.jpg" alt="Image" class="rounded-md">                    
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-03.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
+                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                    <h2 class="mb-6 tm-text-green text-4xl font-medium">About our cafe</h2>
+                    <p class="mb-6 text-base leading-8">
+                        Images are taken from Pexels, a great stock photo website. This template used Tailwind CSS. You may modify Antique Cafe template in any way you prefer and use it for your website.
+                  </p>
+                    <p class="text-base leading-8">
+                        If you wish to <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">support us</a>, please make a little donation via PayPal. That would be
+                    very helpful. Another way is to tell your friends about Tooplate website. Thank you. </p>
+                </div>
+                <a href="#contact" class="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">
+                    <i class="far fa-comments mr-4"></i>
+                    Contact
+                </a>
+            </div>           
+        </div>        
+    </div>
+    <div id="contact" class="parallax-window relative" data-parallax="scroll" data-image-src="img/antique-cafe-bg-04.jpg">
+        <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
+            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
+                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
+                    <h2 class="text-3xl mb-6 tm-text-green">Contact Us</h2>
+                    <p class="mb-6 text-lg leading-8">
+                        Praesent tellus magna, consectetur sit amet volutpat eu, pulvinar vitae sem.
+                        Sed ultrices. bg white 80% alpha. btn #066    
+                    </p>
+                    <p class="mb-10 text-lg">
+                        <span class="block mb-2">Tel: <a href="tel:0100200340" class="hover:text-yellow-600 transition">010-020-0340</a></span>
+                        <span class="block">Email: <a href="mailto:info@company.com" class="hover:text-yellow-600 transition">info@company.com</a></span>                        
+                    </p>
+                    <div class="text-center">
+                        <a href="https://www.google.com/maps" class="inline-block text-white text-2xl pl-10 pr-12 py-6 rounded-lg transition tm-bg-green">
+                            <i class="fas fa-map-marked-alt mr-8"></i>
+                            Open Maps
+                        </a>
+                    </div>                    
+                </div>
+                <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
+                    <form action="" method="POST" class="text-lg">
+                        <input type="text" name="name" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Name" required="" />
+                        <input type="email" name="email" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Email" required="" />
+                        <textarea rows="6" name="message" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Message..." required=""></textarea>
+                        <div class="text-right">
+                            <button type="submit" class="text-white hover:text-yellow-500 transition">Send it</button>
+                        </div>                        
+                      </form>
+                </div>
+            </div>
+            <footer class="absolute bottom-0 left-0 w-full">
+                <div class="text-white container mx-auto tm-container p-8 text-lg flex flex-col md:flex-row justify-between">
+                    <span>Copyright 2022 Antique Cafe. All rights reserved.</span>
+                    <span class="mt-5 md:mt-0">Design: <a href="https://www.tooplate.com" target="_parent">Tooplate</a></span>
+                </div>                
+            </footer>
+        </div>        
+    </div>    
 
-</p>
-				<header>
-					<h2><br>Education</h2>
-				</header>
-				<p>Essex High School - June 2021<br>Florida State University - Computer Science B.S. - Expected Spring 2024</p>
-				<footer>
-					<a href="#first" class="button style2 scrolly">View Projects</a>
-					<a href="Couture Resume.pdf" target="_blank" class="button style2 scrolly">View Resume</a>
-				</footer>
-				
-			</section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script>
 
-		<!-- Feature 1 -->
-			<article id="first" class="container box style1 right">
-				<a class= "image fit"><img src="images/FOapp.jpg" alt="image/pic02.jpg"/></a>
-				<div class="inner">
-					<header>
-						<h2><a href="https://fos-trainer.williamcouture1.repl.co/" target="_blank">FOS Trainer</a></h2>
-					</header>
-					<p>
-						Are you a lacrosse faceoff specialist looking to train your reaction to the whistle but don't want to pay for those apps in the appstore? Well you're in luck, FOS trainer 
-						includes all the same features as the official apps with customizable timings and whistle counts. Made using JavaScript and p5.js.
-					</p>
-					<footer>
-						<a href="https://replit.com/@WilliamCouture1/FOS-Trainer?v=1" class="button style3" target = "_blank">View Code</a>
-					</footer>
-				</div>
-			</article>
-		
-			<article class="container box style1 left">
-				<a class = "image fit"><img src="images/pixels.png"/></a>
-				<header>
-					<h2><a href="https://www.dropbox.com/s/6llu52cw7tczl6b/PixelArtInstall.zip?dl=1" target="_blank">Pixel Art Drawer</a></h2>
-				</header>
-				<div class="inner">
-					<p>
-						Basic desktop application that allows the user to create a canvas of a specified size and draw pixel art with a selection of colors. Built in C++ using SFML.
-					</p>
-					<footer>
-						<a href="https://github.com/wcouture/PixelARtDrawer" class ="button style3" target="_blank">View Code</a>
-					</footer>
-				</div>
-			</article>
+        function checkAndShowHideMenu() {
+            if(window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');                
+            } else {
+                $('#tm-nav ul').removeClass('hidden');
+            }
+        }
 
-			<article class="container box style1 right">
-				<a class= "image fit"><img src="images/vrazyeights.png" alt="image/pic02.jpg"/></a>
-				<div class="inner">
-					<header>
-						<h2><a href="coochiesgames/vrazyeights.html" target="_blank">Vrazy Eights</a></h2>
-					</header>
-					<p>
-						Good ol' game of fun crazy eights. Connect up with your friends from anywhere in the country to compete to place down your cards.
-					</p>
-					<footer>
-						<a href="https://github.com/wcouture/Vrazy8s" class="button style3" target = "_blank">View Code</a>
-					</footer>
-				</div>
-			</article>
+        $(function(){
+            var tmNav = $('#tm-nav');
+            tmNav.singlePageNav();
 
-			<article class="container box style1 left">
-				<a class="image fit"><img src="images/blackjack.png" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2><a href="https://www.dropbox.com/s/rjt7011xonw7pmw/BlackJack.zip?dl=1" target="_blank">Black Jack</a></h2>
-					</header>
-					<p>Based off of a project from my computer science class, this is the game of black jack made entirely with JavaFX. User plays against the computer and allows betting. Window constructed with <a href ="https://gluonhq.com/products/scene-builder/" target = "_blank">SceneBuilder</a></p>
-					<footer>
-						<a href = "https://github.com/wcouture/BlackJack" class = "button style3">View Code</a>
-					</footer>
-				</div>
-			</article>
+            checkAndShowHideMenu();
+            window.addEventListener('resize', checkAndShowHideMenu);
 
-			<article class="container box style1 right">
-				<a class= "image fit"><img src="images/students.png" alt="image/pic02.jpg"/></a>
-				<div class="inner">
-					<header>
-						<h2><a href="https://www.dropbox.com/s/n4zi89po3wuynyx/Student%20Selector.zip?dl=1" target="_blank">Student Selector</a></h2>
-					</header>
-					<p>
-						Created for a teacher, allows for a text document or speadsheet for a student to be imported and randomly selects a student from the list. Features an option to allow repeat selections before every name has been picked and shows statistics on selection counts.
-					</p>
-					<footer>
-						<a href="https://github.com/wcouture/Student-Selector" class="button style3" target = "_blank">View Code</a>
-					</footer>
-				</div>
-			</article>
+            $('#menu-toggle').click(function(){
+                $('#tm-nav ul').toggleClass('hidden');
+            });
 
-		<!-- Feature 2 -->
-			<article class="container box style1 left">
-				<a class="image fit"><img src="images/calculator.png" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2><a href="https://www.dropbox.com/s/jl3fak82x05zcz4/Calculator.zip?dl=1" target="_blank">Calculator</a></h2>
-					</header>
-					<p>Desktop calculator application made with Java and JavaFX. Creation of the layout was done with <a href ="https://gluonhq.com/products/scene-builder/" target = "_blank">SceneBuilder</a></p>
-					<footer>
-							<a href = "https://github.com/wcouture/Calculator" class = "button style3 padding">View Code</a>
-					</footer>
-				</div>
-			</article>
+            $('#tm-nav ul li').click(function(){
+                if(window.innerWidth < 768) {
+                    $('#tm-nav ul').addClass('hidden');
+                }                
+            });
 
-			<article class="container box style1 left">
-				<a class = "image fit"><img src="images/snake.png"/></a>
-				<header>
-					<h2><a href="https://www.dropbox.com/s/e9lgbl590nsfrb4/SnakeInstall.zip?dl=1" target="_blank">Snake</a></h2>
-				</header>
-				<div class="inner">
-					<p>
-						Classic game of snake made in C++ with SFML.
-					</p>
-					<footer>
-						<a href="https://github.com/wcouture/Snake" class ="button style3" target="_blank">View Code</a>
-					</footer>
-				</div>
-			</article>
+            $(document).scroll(function() {
+                var distanceFromTop = $(document).scrollTop();
 
+                if(distanceFromTop > 100) {
+                    tmNav.addClass('scroll');
+                } else {
+                    tmNav.removeClass('scroll');
+                }
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
 
-
-		<!-- Contact -->
-			<article class="container box style3">
-				<header>
-					<h2>Contact Me</h2>
-				</header>
-				<div class="center">
-					<p><b>Email:</b> <a href="mailto: couture@cs.fsu.edu">couture@cs.fsu.edu</a></p>
-
-					<p><b>Address:</b> 256 Old Stage Rd, Essex Jct VT 05452</p>
-					<p><b>Phone:</b> (802) 734-8950</p>
-				</div>
-			</article>
-
-		<section id="footer">
-			<ul class="icons">
-				<li><a href="mailto:couture@cs.fsu.edu" target="_blank"class="icon regular fa-envelope"><span class="label">Outlook</span></a></li>
-				<li><a href="https://github.com/wcouture" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-				<li><a href="https://www.linkedin.com/in/wcouture/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-			</ul>
-		</section>
-
-				<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
 </html>
