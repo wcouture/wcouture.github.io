@@ -61,7 +61,8 @@ a.tm-bg-green:hover {
 }
 
 .tm-bg-brown {
-    background-color: #544639;
+    background-image: linear-gradient(15deg, #535353,#d3d3d3);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.7)
 }
 
 .tm-bg-green {
@@ -105,10 +106,12 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 #tm-nav {
     z-index: 1000;
     transition: all 0.3s ease;
+    opacity: 0%;
 }
 
 #tm-nav.scroll {
     background-color: rgba(0,0,0,0.7);
+    opacity: 100%;
 }
 
 #tm-nav li a {
@@ -163,4 +166,8 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
     .tm-menu-item-2 img {
         margin-bottom: 10px;
     }
+}
+
+.mini-card {
+    text-align: center;
 }
