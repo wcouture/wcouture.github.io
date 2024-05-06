@@ -24,7 +24,8 @@ section {
   color: black;
   display: flex;
   overflow-y: auto;
-  padding: 10px;
+  padding: 5%;
+  display: flex;
   flex-wrap: wrap;
   font-family: "Amaranth";
 }
@@ -61,7 +62,8 @@ canvas{
 
 .panel {
   flex: 0 0 300px;
-  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
